@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--SEO y complementacion-->
     <meta name="description" content="Este son unas practicas para que las puedas revisar y aprender mejor" />
-    <!--Funciona para posicionamiento con la busqueda de robots-->
     <meta name="robots" content="index,follow"/>
-    <!--Puente de conexion a CSS-->
+    <meta name="theme-color" content="#ff6600">
+    <link rel="shortcut icon" href="./img/favicon/favicon1.png" type="image/x-icon">
+    <link rel="canonical" href="urlPaginaYaConDominio">
+    <!--Metaetiquetas redes sociales-->
+    <meta name="twitter:card" content="summary"/>
+    <meta property="og:title" content="Practicando y aprendiendo" />
+    <meta property="og:description" content="Este son unas practicas para que las puedas revisar y aprender mejor">
+    <meta property="og:url" content="https://midominio.com/index.html" />
+    <meta property="og:image" content="https://Midominio.com/img/carro.jpg" />
+
+    <link rel="apple-touch-icon" href="./img/favicon/favicon1.png">
+
     <link rel="stylesheet" href="./CSS/styles.css">
+
+
     <title>Practicando y aprendiendo</title>
 </head>
 <body>
@@ -221,18 +234,20 @@
             </select>
             </fieldset>
         </section>
-
+        <hr>
         <section>
             <h2>datalist que busca las opciones</h2>
 
             <input list="cursos">
+            <form action="cursos">
             <datalist id="cursos">
                 <option value="Javascript"></option>
                 <option value="html"></option>
                 <option value="css"></option>
                 <option value="python"></option>
             </datalist>
-            
+            </form>
+            <input type="submit" value="boton">
         </section>
     </main>
 
