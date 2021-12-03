@@ -137,7 +137,7 @@
                 <label for="documento">
                     <span>Ingresa tu cedula</span>
                     <input type="file" id="documento" >
-                </label>}
+                </label>
 
                 <label for="textarea">
                     <span>deja tu comentario</span>
@@ -149,7 +149,90 @@
         <hr>
         <section>
             <h2>Formulario de viajes</h2>
-           
+
+           <form action="">
+               <label for="hora">
+                   <span>hora</span>
+                   <input type="time" id="hora" name="hora">
+               </label>
+
+               <label for="dia">
+                   <span>Dia</span>
+                   <input type="date" name="dia" id="dia">
+               </label>
+
+               <label for="semana">
+                   <span>Semana</span>
+                   <input type="week" name="semana" id="semana">
+               </label>
+
+               <label for="mes">
+                   <span>mes</span>
+                   <input type="month" name="mes" id="mes">
+               </label>
+               <input type="submit">
+           </form>
+        </section>
+        <hr>
+        <section>
+            <h2>otro formulario mas rapido</h2>
+            <form action="">
+                <label for="">
+                    <span>Calendario</span>
+                    <input type="datetime-local" name="calendario" id="calendario">
+                </label>
+                <input type="submit">
+            </form>
+        </section>
+
+        <section>
+            <h2>Validaciones formularios pros</h2>
+            <form action="">
+            <label for="nombree">
+                <span>nombre</span>
+                <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+            </label>
+
+            <label for="pais">
+                <span>pais</span>
+                <input type="texto" name="pais" id="pais" autocomplete="country"required>
+
+            <label for="correo">
+                <span>correo</span>
+                <input type="email" name="email" id="email" autocomplete="email" required>
+            </label>
+
+            <label for="codigo-postal">
+                <span>codigo postal</span>
+                <input type="number" name="codigo-postal" id="codigo-postal" autocomplete="postal-code" required>
+            </label>
+        </form>
+            <input type="submit">
+        </section>
+        <hr>
+        <section> 
+            <fieldset>
+                <legend><b>Practicando select </b>(Ultimo tema)</legend>
+            <select name="cursos" id="">
+                <option value="Js">Javascript</option>
+                <option value="html">HTML5</option>
+                <option value="css">CSS</option>
+                <option value="web">Web </option>
+            </select>
+            </fieldset>
+        </section>
+
+        <section>
+            <h2>datalist que busca las opciones</h2>
+
+            <input list="cursos">
+            <datalist id="cursos">
+                <option value="Javascript"></option>
+                <option value="html"></option>
+                <option value="css"></option>
+                <option value="python"></option>
+            </datalist>
+            
         </section>
     </main>
 
