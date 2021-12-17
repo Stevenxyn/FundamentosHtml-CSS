@@ -38,5 +38,88 @@
         </nav>
     </header>
 
+    <section>
+        <div class="form-title">
+            <h2>Formato de satisfaccion</h2>
+        </div>
+        <form action="">
+            <label for="nombre">
+                <span class="nombre-cliente">Nombre Cliente: </span>
+                <input type="text" name="nombre" id="nombre" required placeholder="Tu nombre aqui">
+            </label>
+
+            <label for="restaurante">
+                <span>Nombre restaurante: </span>
+                <input type="text" name="restaurante" id="restaurante" required placeholder="Nombre de restaurante">
+            </label>
+
+            <label for="calificacion">
+                <span>Calificacion segun servicio: </span>
+                <input type="range" name="calificacion" id="calificacion" required >
+            </label>
+
+            <label for="correo">
+                <span>Correo electronico: </span>
+                <input type="email" name="correo" id="correo" required placeholder="Tu correo">
+            </label>
+
+            <label for="telefono">
+                <span>Tu numero de contacto: </span>
+                <input type="tel" name="telefono" id="telefono" required placeholder="Tu Telefono">
+            </label>
+
+            <input type="reset" name="reset" id="reset">
+            <input type="submit" value="Enviar">
+        </form> 
+    </section>
+    <hr>
+
+    <section>
+        <div class="titulo-combinadores">
+            <h1>Los combinadores</h1>
+        </div>
+       <div class="hermano-adyacesnte">
+           <h2>Soy un h2</h2>
+            <p>Soy un parrafo</p>
+           <h2>soy un h2 otra vez</h2>
+           <p>soy un parrafo otra vez</p>
+           <h3>soy un h3</h3>
+           <p>soy un parrafo era vez</p>
+           <h2>soy h2</h2>
+           <p>soyparrafoo</p>
+       </div>  
+       <hr>
+        <div class="titulo-combinadores">
+            <h1>hermano general</h1>
+        </div>
+       <div class="hermano-general">
+            <h2>Soy un h2</h2>
+            <p>Soy un parrafo</p>
+            <h2>soy un h2 otra vez</h2>
+            <h3>soy un h3</h3>
+            <h2>soy h2</h2>
+            <p>soyparrafoo</p>
+       </div>
+       <hr>
+        <div class="titulo-combinadores">
+            <h1>Hijo</h1>
+        </div>
+        <div class="hijo">
+           <article>
+               <p>soy un texto pro</p>
+           </article>
+           <article>
+               <p>soy un texto pro2</p>
+           </article>
+           <div class="hijo">
+                <p>soy otro parrafo</p>
+           </div>
+           <section>
+               <p>texto pro</p>
+           </section>
+               <p>texto pro ultimo</p>
+       </div>
+    </section>
+
 </body>
 </html>

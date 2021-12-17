@@ -39,28 +39,83 @@
     font-size: 3rem;
     letter-spacing: 1rem;
     padding-bottom: 5px;
+    padding-top: 15px;
 }
 
 .main-nav li{
-    display: inline;
-    padding:10px;
-}
+    display: inline-block;
+    padding:20px;
 
+}
+/*last-child sive para el ultimo elemento cambiarle
+.main-nav li:last-child a{
+    background-color: blue;
+}
+*/
+ 
 .main-nav a{
     text-decoration: none;
     color: blanchedalmond;
     font-family: Arial, Helvetica, sans-serif;
+    padding:5px;
 }
 
 .main-nav a:hover{
-    color: rgb(250, 250, 250);
-    text-decoration: overline;
+    background-color: darkgray;
+    color: black;
+    border-radius: 5px;
+    
 }
 
 .main-nav a:active{
-    color: white;
+    color: rgb(10, 9, 9);
 }
 
+.form-title{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form label{
+    display:inline-flex;
+    padding: 5px;
+}
+
+span{
+    color:mediumblue;
+}
+
+.nombre-cliente{
+    color: mediumorchid;
+}
+
+.titulo-combinadores{
+    font-size: 1.5rem;
+    color: brown;
+}
+/*Hermano adyascente*/
+
+.hermano-adyacesnte h2 + p{
+    color: red;
+}
+
+.hermano-adyacesnte h3 + p{
+    color: blue;
+}
+
+/*Hermano general*/
+
+.hermano-general h2 ~ p{
+    color: crimson;
+}
+
+/*Etiqueta hija*/
+
+.hijo > p {
+    color: rgb(220, 29, 29);
+}
 
 
 
