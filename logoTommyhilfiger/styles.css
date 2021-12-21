@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+}
+
+.top,.bot{
+    width: 100vw;
+    height: 5vw;
+    background-color: navy;
+    color: oldlace;
+    font-size: 2rem;
+    font-family: cursive;
+    letter-spacing: 3rem;
+    text-align: center;
+}
+
+.center{
+    position:relative;
+    width: 100vw;
+    height: 25vw;
+    max-width: 50%;
+    background-color:rgb(228, 32, 32);
+}
+
+.bot{
+    position: relative;
+    top: 80%;
+}
+
+@media (max-width:660px) {
+    p{
+        height: 6vw;
+        font-size: 1rem;
+        letter-spacing: 1rem;
+    }
+}
+

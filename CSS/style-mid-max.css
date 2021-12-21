@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px; 
+}
+
+html{
+    font-size: 62.5;
+}
+
+main{
+   width: 100vw;
+   height: 100vh; 
+   background-color: purple;
+}
+
+section{
+    width: 80%;
+    min-height: 500px; /*sirve para que el texto no sobresalga
+    cuando la caja es muy pqueña*/
+    margin: 0 auto; /* arriba abajo no agreges
+                        a los lados se ajueste automatico*/
+    background-color: royalblue;
+    /*Para ocupar un min y max tener un width base en %*/
+    min-width: 300px;
+    max-width: 50%;
+}
+
+@media (max-width: 550px){
+    section p{
+        color: crimson;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+
+@media (min-width: 500px){
+    section p{
+        color: springgreen;
+        font-family:cursive;
+    }
+}
+
