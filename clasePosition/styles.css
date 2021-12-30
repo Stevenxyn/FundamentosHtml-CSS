@@ -1,0 +1,54 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.parent{
+    border: rgb(0, 0, 0) solid;
+    display: inline-block;
+    position: relative;
+    background-color:rgb(161, 190, 243);
+    height: 30vw;
+    width: 20vw;
+    top: 50px;
+    left: 50px;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px gray;
+}
+
+#one{
+    background-color:cornflowerblue;
+    position: relative;
+    top: -1rem;
+    height: 10%;
+    width: 40%;
+    left: 30%;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 5px 5px 18px rgb(0, 0, 0);
+    text-align:center;
+    font-family: cursive;
+}
+
+#two img{
+    height: 10.5vw;
+    position: relative;
+    left: 1rem;
+    border-radius: 5px;
+    border: dimgrey solid;
+}
+
+#three{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    background-color:gainsboro;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+
+
